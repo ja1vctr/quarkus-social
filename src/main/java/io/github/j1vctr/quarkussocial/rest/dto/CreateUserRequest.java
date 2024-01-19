@@ -1,22 +1,22 @@
 package io.github.j1vctr.quarkussocial.rest.dto;
 
 public class CreateUserRequest {
-    private String name;
-    private Integer age;
+    private String nome;
+    private Integer idade;
 
     public String getName() {
-        return name;
+        return nome;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String nome) {
+        this.nome = nome;
     }
 
     public Integer getAge() {
-        return age;
+        return idade;
     }
 
-    public void setAge(Integer age) {
-        this.age = age;
+    public void setAge(Integer idade) {
+        this.idade = idade;
     }
 }
